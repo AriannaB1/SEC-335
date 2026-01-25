@@ -1,10 +1,5 @@
 #! /bin/bash
 
-if [ $# -ne 2 ]; then
-	echo "Usage: $0 mytargets.txt mtcpports.txt"
-	exit 1
-fi
-
 hostfile=$1
 portfile=$2
 
